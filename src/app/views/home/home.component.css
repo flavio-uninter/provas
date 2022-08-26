@@ -1,0 +1,16 @@
+.home {
+  max-width: 1300px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+.home .foto {
+  max-width: 100px;
+  padding-left: 32px;
+
+}
+
+.header-image {
+  background-image: url('../../../assets/img/flavio.jpg');
+  background-size: cover;
+}

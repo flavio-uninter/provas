@@ -1,0 +1,19 @@
+<h1>Entre em contato</h1>
+
+<form #myform = "ngForm" (ngSubmit)="onSubmit(myform)" class="formulario">
+  <input type = "text" name = "nome" placeholder="Nome Completo" ngModel class="campos">
+  <br>
+  <br>
+  <input type = "email" name = "email" placeholder="Seu email" ngModel class="campos">
+  <br>
+  <br>
+  <input type = "telefone" name = "telefone" placeholder="Seu numero de telefone" ngModel class="campos">
+  <br>
+  <br>
+
+  <input type = "submit" value = "Enviar" class="botao">
+</form>
+
+<p >
+  {{ teste | json}}
+</p>

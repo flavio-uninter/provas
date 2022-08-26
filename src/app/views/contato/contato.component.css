@@ -1,0 +1,19 @@
+.formulario {
+  padding: 10px 10px 20px 20px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.campos {
+  width:fit-content ;
+  padding-right: 15px;
+  padding-left: 35px;
+  border-radius: 25px;
+  border: 2px solid;
+}
+
+.botao {
+  border-radius: 20px;
+  size: 30px;
+
+}
